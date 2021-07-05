@@ -35,11 +35,19 @@ h2{
     color: white;
     font-weight: 700;
     padding: 10px 40px;
+    margin-top: 10px;
 }
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.service{
+    text-align: center;
+    font-size: 55px;
+    background-image: linear-gradient(steelblue,tomato,yellow);
+    border: 5px solid rebeccapurple;
+   
 }
 .service-item{
     width: 40%;
@@ -62,4 +70,9 @@ h2{
 footer p{
     text-align: center;
     font-size: 20px;
+}
+#web-dev{
+    border-right: 7px solid;
+    border-image: linear-gradient(orange,yellow);
+    border-image-slice: 1;
 }
